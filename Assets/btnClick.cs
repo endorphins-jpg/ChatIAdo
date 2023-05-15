@@ -19,7 +19,6 @@ public class btnClick : MonoBehaviour
 
     public void OnButtonClick()
     {
-        Debug.Log("Botão clicado: " + value);
         pass_input.text = pass_input.text + value;
     }
 }
